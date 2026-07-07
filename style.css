@@ -1,0 +1,77 @@
+* {
+            /* background-image: url(bok.jpg); 
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;  */
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: black;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            margin-top: 20px;
+        }
+
+        nav {
+            text-align: center;
+            padding: 5px;
+            background-color: black;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a{
+            color: blue;
+            font-size: 20px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        img {
+            background-color: black;
+        }
+
+        .books {
+            border-width: 200px;
+            border-top: 200px;
+            display: inline-block;
+            margin-top: 1%;
+            padding: 1%;
+            cursor: pointer;
+            background-image: none;
+
+        }
+
+        .books:hover {
+            color: blue;
+        }
+
+        a {
+            scroll-behavior: smooth;
+        }
+
+        footer {
+            padding: 20px;
+        }
+        h1 {
+  background: -webkit-linear-gradient(#e3f1ef, #26f51f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+p{
+    background-image: none;
+}
+h4{
+    background-image: none;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    background-color: black;
+}
